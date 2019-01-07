@@ -1,2 +1,1 @@
-# Stub
-Stub function, method, object
+# Stub function, method, object
