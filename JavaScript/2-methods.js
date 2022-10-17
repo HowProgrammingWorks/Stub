@@ -7,7 +7,7 @@ class EventEmitter {
 
 const ee = new EventEmitter();
 
-ee.on('eventName', data => {
+ee.on('eventName', (data) => {
   console.dir({ data });
 });
 

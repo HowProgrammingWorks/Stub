@@ -23,15 +23,15 @@ const fs = {
 
 // Usage
 
-fs.writeFile('file.ext', 'FileContent', 'utf8', err => {
+fs.writeFile('file.ext', 'FileContent', 'utf8', (err) => {
   if (err) throw err;
   else console.log('saved successfully');
 });
 
 fs.promises.readFile('file.ext', 'utf8')
-  .then(data => {
+  .then((data) => {
     console.log('file content:', data);
   })
-  .catch(err => {
+  .catch((err) => {
     if (err) throw err;
   });

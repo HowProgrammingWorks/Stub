@@ -6,7 +6,7 @@ const trueness = () => true;
 
 const emptiness = () => {};
 
-const nop = callback => {
+const nop = (callback) => {
   callback(null);
 };
 
